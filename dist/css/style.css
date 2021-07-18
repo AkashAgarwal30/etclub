@@ -1706,7 +1706,8 @@ label {
     padding: 12px;
     width: 368px;
     max-width: 368px;
-    flex-grow: 1
+    flex-grow: 1;
+    float: left
 }
 
 .pricing-table::before {
