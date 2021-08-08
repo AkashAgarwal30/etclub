@@ -1686,9 +1686,11 @@ label {
 }
 
 .pricing-tables-wrap {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    grid-gap: 80px;
+    padding: 20px;
     margin-right: -12px;
     margin-left: -12px
 }
@@ -1734,11 +1736,12 @@ label {
 
 .pricing-table-inner {
     position: relative;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     background: #2C3039;
     padding: 24px;
-    height: 100%
+    height: 100%;
+    width: 120%;
 }
 
 .pricing-table-inner>* {
