@@ -1695,6 +1695,15 @@ label {
     margin-left: -12px
 }
 
+.pricing-tables-wrap2 {
+    display: flex;
+    justify-content: center;
+    grid-gap: 80px;
+    padding: 20px;
+    margin-right: -12px;
+    margin-left: -12px
+}
+
 .pricing-tables-wrap:first-child {
     margin-top: -12px
 }
