@@ -1686,7 +1686,7 @@ label {
 }
 
 .pricing-tables-wrap {
-    display: flex;
+    display: grid;
     position: auto;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
