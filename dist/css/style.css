@@ -1686,23 +1686,23 @@ label {
 }
 
 .pricing-tables-wrap {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     grid-gap: 80px;
     padding: 20px;
     margin-right: -12px;
-    margin-left: -12px
+    margin-left: -12px */
 }
 
-.pricing-tables-wrap2 {
+/* .pricing-tables-wrap2 {
     display: grid;
     justify-content: center;
     grid-gap: 80px;
     padding: 20px;
     margin-right: -12px;
     margin-left: -12px
-}
+} */
 
 .pricing-tables-wrap:first-child {
     margin-top: -12px
